@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrameBit | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="particulas"></div>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main id="inicio" class="cabecalho">
+
+        <img src="img/perfil.jpg" alt="Foto de Hassain Umue" class="foto-perfil">
+        <h1>Hassain Miguel</h1>
+        <p class="cabecalho-sub-titulo">Desenvolvedor Front End</p>
+
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Olá! Sou desenvolvedor front-end apaixonado por criar experiências web e mobile únicas e memoráveis.
+                Combino código limpo com design moderno para desenvolver sites que não só funcionem perfeitamente, mas
+                também impressionam visualmente
+            </p>
+        </div>
+    </section>
+
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="img/Iphone.png" alt="Iphone" class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <div class="caixa-texto-projeto"></div>
+                    <h3 class="info-projetos">Loja De Iphones</h3>
+                    <p class="paragrafo-projetos">Loja virtual moderna com animações suaves e design resposivo para uma
+                        loja de iphones</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/marketing.png" alt="Marketing Criativo" class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Marketing Criativo</h3>
+                    <p class="paragrafo-projetos">Loja virtual moderna com design resposivo para uma loja de marketing
+                        criativo</p>
+                </div>
+
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/musica.png" alt="site para ouvir música online " class="projetos-imagem">
+
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Toque Hits Online</h3>
+                    <p class="paragrafo-projetos">Os sites para ouvir música online revolucionaram a forma como
+                        consumimos
+                        nossas canções favoritas.</p>
+                </div>
+
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/my_website.png" alt="Iphone" class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Portfólio Pessoal</h3>
+                    <p class="paragrafo-projetos">Um portfólio pessoal é uma ferramenta poderosa para mostrar suas
+                        habilidades e conquistas de forma profissional e impactante. Com um site pessoal, você pode
+                        destacar
+                        seus projetos, experiências e talentos, criando uma presença online que reflita sua identidade e
+                        fortaleça sua marca pessoal. </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input type="text" placeholder="Nome" class="campo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua Mensagem" id="mensagem" rows="6"></textarea>
+            </div>
+            <button type="submit" class="botao-form md">Enviar para Whatsapp</button>
+        </form>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
